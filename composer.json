@@ -6,12 +6,12 @@
     "require": {
         "php": "^7.4|^8.0",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^7.8",
-        "guzzlehttp/psr7": "^2.6",
-        "caseyamcl/guzzle_retry_middleware": "^2.2",
-        "adgoal/guzzle-rewind-middleware": "0.*",
-        "php-http/guzzle6-adapter": "^2.0",
-        "kevinrob/guzzle-cache-middleware": "v0.8.1"
+        "guzzlehttp/guzzle": "^6.0",
+        "guzzlehttp/psr7": "^1.9",
+        "caseyamcl/guzzle_retry_middleware": "^2",
+        "adgoal/guzzle-rewind-middleware": "*",
+        "php-http/guzzle6-adapter": "^2",
+        "kevinrob/guzzle-cache-middleware": "^5"
     },
     "require-dev": {
         "jakub-onderka/php-parallel-lint": "^1.0",
