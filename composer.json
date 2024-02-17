@@ -6,8 +6,8 @@
     "require": {
         "php": "^7.4|^8.0",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^6.3",
-        "guzzlehttp/psr7": "^1.5",
+        "guzzlehttp/guzzle": "^7.8",
+        "guzzlehttp/psr7": "^2.6",
         "caseyamcl/guzzle_retry_middleware": "^2.2",
         "adgoal/guzzle-rewind-middleware": "0.*",
         "php-http/guzzle6-adapter": "^2.0",
