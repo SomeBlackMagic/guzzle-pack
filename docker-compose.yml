@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  php:
+    user: 1000:1000
+    build:
+      context: .docker/php7.4-dev
+    volumes:
+      - .:/app:rw
+      - ~/.composer/cache/:/.composer_cache/:rw
+    working_dir: /app
+    restart: on-failure
+    stop_signal: INT

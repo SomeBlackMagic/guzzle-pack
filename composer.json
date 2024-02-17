@@ -1,0 +1,44 @@
+{
+    "name": "someblackmagic/guzzle-pack",
+    "type": "library",
+    "description": "Guzzle Pack common library",
+    "license": "proprietary",
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/psr7": "^1.5",
+        "caseyamcl/guzzle_retry_middleware": "^2.2",
+        "adgoal/guzzle-rewind-middleware": "0.*",
+        "php-http/guzzle6-adapter": "^2.0",
+        "kevinrob/guzzle-cache-middleware": "v0.8.1"
+    },
+    "require-dev": {
+        "jakub-onderka/php-parallel-lint": "^1.0",
+        "mockery/mockery": "^1.4",
+        "phpmd/phpmd": "^2.8",
+        "phpstan/phpstan": "^0.12",
+        "phpstan/phpstan-mockery": "^0.12",
+        "phpstan/phpstan-phpunit": "^0.12",
+        "phpunit/phpunit": "^9.3",
+        "roave/security-advisories": "dev-master",
+        "symplify/easy-coding-standard": "^5.4",
+        "vimeo/psalm": "^3.14"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "SomeBlackMagic\\GuzzlePack\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SomeBlackMagic\\GuzzlePack\\Tests\\Unit\\": "tests/unit"
+        }
+    }
+}
