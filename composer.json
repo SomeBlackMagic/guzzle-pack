@@ -4,7 +4,7 @@
     "description": "Guzzle Pack common library",
     "license": "proprietary",
     "require": {
-        "php": "^7.4",
+        "php": "^7.4|^8.0",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^6.3",
         "guzzlehttp/psr7": "^1.5",
