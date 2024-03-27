@@ -10,7 +10,7 @@
         "guzzlehttp/psr7": "^1.9|^2.0",
         "caseyamcl/guzzle_retry_middleware": "^2",
         "adgoal/guzzle-rewind-middleware": "*",
-        "php-http/guzzle7-adapter": "^2",
+        "php-http/guzzle7-adapter": "^0.1",
         "kevinrob/guzzle-cache-middleware": "^5"
     },
     "require-dev": {
